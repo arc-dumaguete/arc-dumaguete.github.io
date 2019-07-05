@@ -12,8 +12,8 @@ baseurl: /
 title: Dumaguete's Arc
 description: Building an innovative economy in Dumaguete
 cover: assets/images/blog-cover.jpg
-logo: assets/images/blog-icon.png
-logo_dark: assets/images/favicon.png
+# logo: assets/images/blog-icon.png
+# logo_dark: assets/images/favicon.png
 favicon: assets/images/favicon.png
 production_url: https://arc-dumaguete.org
 source_url: https://github.com/arc-dumaguete/arc-dumaguete.github.io
@@ -21,11 +21,11 @@ CNAME: arc-dumaguete.org
 
 # Social info
 navigation: True # show the navbar links
-subscribers: True # you need to connect an external service for this to work,
+subscribers: False # you need to connect an external service for this to work,
 # if 'True' the submit button is disabled for now, but you can change that
 # by editing `_includes/subscribe-form.html`
-twitter: tryghost # replace by your username
-facebook: ghost # replace by your username
+#twitter: tryghost # replace by your username
+#facebook: ghost # replace by your username
 
 # Disqus
 disqus: False
@@ -78,6 +78,9 @@ production_url: https://arc-dumaguete.org
 source_url: https://github.com/arc-dumaguete/arc-dumaguete.github.io
 
 exclude:
+  - tags.temp
+  - tags.lock
+  - tags
   - assets/css
   - node_modules
   - vendor

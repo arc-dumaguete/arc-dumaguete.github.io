@@ -15,6 +15,7 @@ Run
 bundler install
 npm install
 ```
+
 ##Editing
 
 Edit the files in _posts or add new files there. Make sure to look at an existing file and check the Front Matter, including the author.

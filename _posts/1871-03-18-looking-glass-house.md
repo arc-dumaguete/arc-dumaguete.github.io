@@ -1,5 +1,6 @@
 ---
 layout: post
+published: False
 current: post
 cover: 'assets/images/summit.jpg'
 navigation: True

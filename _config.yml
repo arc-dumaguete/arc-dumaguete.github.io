@@ -69,8 +69,8 @@ feed:
 # or "master" otherwise
 safe: False
 lsi: False
-username: jekyller
-repo: _site
+username: arc-dumaguete
+# repo: arc-dumaguete.github.io
 branch: jekyll
 relative_source: ../_site/
 destination: _site

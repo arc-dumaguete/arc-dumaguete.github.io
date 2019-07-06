@@ -71,7 +71,7 @@ safe: False
 lsi: False
 username: jekyller
 repo: _site
-branch: master
+branch: jekyll
 relative_source: ../_site/
 destination: _site
 production_url: https://arc-dumaguete.org

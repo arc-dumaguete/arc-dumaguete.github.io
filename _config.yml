@@ -70,7 +70,7 @@ feed:
 safe: False
 lsi: False
 username: arc-dumaguete
-# repo: arc-dumaguete.github.io
+repo: arc-dumaguete.github.io
 branch: jekyll
 relative_source: ../_site/
 destination: _site

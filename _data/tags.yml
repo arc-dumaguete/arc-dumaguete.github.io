@@ -1,3 +1,7 @@
+welcome:
+  name: Welcome
+  description: All general welcome pages
+  cover: assets/images/welcome.jpg
 startups:
   name: startups
   description: Everything about starting your own business or becoming an entrepreneur.

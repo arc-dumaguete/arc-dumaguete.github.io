@@ -8,21 +8,6 @@
     
       
       <item>
-        <title>Welcome to Ghost</title>
-        
-          <description>&lt;p&gt;Hey! Welcome to Ghost, it’s great to have you :)&lt;/p&gt;
-
-</description>
-        
-        <pubDate>Thu, 27 Jul 2017 10:00:00 +0000</pubDate>
-        <link>
-        /welcome</link>
-        <guid isPermaLink="true">/welcome</guid>
-      </item>
-      
-    
-      
-      <item>
         <title>Using the Ghost editor</title>
         
           <description>&lt;p&gt;Ghost uses a language called &lt;strong&gt;Markdown&lt;/strong&gt; to format text.&lt;/p&gt;

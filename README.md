@@ -40,6 +40,10 @@ git push
 bundler exec jekyll serve
 ```
 
+## Hiding and showing pages
+If you want to hide a page, you can set `published: False` in the front matter for that page. That way it will not show up on the site. If you still want to see that page locally for testing purposes, you can start your local version with `bundler exec jekyll serve --unpublished`
+
+See also https://sangsoonam.github.io/2018/12/27/writing-upcoming-posts-in-github-pages.html
 
 ## Compiling styles
 The styles are in assets/css. If you modify them, you need to compile them with `gulp`.

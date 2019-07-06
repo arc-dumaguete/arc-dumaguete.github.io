@@ -8,6 +8,21 @@
     
       
       <item>
+        <title>Welcome to Ghost</title>
+        
+          <description>&lt;p&gt;Hey! Welcome to Dumaguete’s Arc, it’s great to have you :)&lt;/p&gt;
+
+</description>
+        
+        <pubDate>Fri, 05 Jul 2019 10:00:00 +0000</pubDate>
+        <link>
+        /welcome</link>
+        <guid isPermaLink="true">/welcome</guid>
+      </item>
+      
+    
+      
+      <item>
         <title>Using the Ghost editor</title>
         
           <description>&lt;p&gt;Ghost uses a language called &lt;strong&gt;Markdown&lt;/strong&gt; to format text.&lt;/p&gt;

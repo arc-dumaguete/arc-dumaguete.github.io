@@ -17,6 +17,8 @@ We have it setup so that the master branch contains the compiled html version, w
 Then you can author in the jekyll branch, compile, and push the resulting site to the master branch. The easiest way to get this to work is to `git clone git@github.com:arc-dumaguete/arc-dumaguete.github.io.git` clone the repository, then `git checkout jekyll`. Then again, but now in side the existing clone of the jekyll branch, `git clone git@github.com:arc-dumaguete/arc-dumaguete.github.io.git ./_site`. This will clone the master branch in the `_site` directory. This directory is where jekyll will put the compiled HTML version, and that folder is ignored in `.gitignore` so won't be included in the jekyll branch. 
 
 ## Installing dependencies
+You only need to do this if you want to locally serve the site for testing, or if you want to manually build the site. If you just want to add/edit a post, just make/edit the file in the jekyll branch and commit and push. Travis-CI takes care of the rest.
+
 Make sure you have ruby, ruby-dev (or ruby-devel in redhat/centos/fedora) and rubygem-bundler installed.
 Install npm/nodejs and gulp, probably easiest through the package manager or your OS.
 Run
